@@ -1,0 +1,44 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "backslotmi"
+version = "${version}"
+displayName = "BackSlotMI"
+authors = "Kermir"
+description = '''
+Adds extra compatibility to Back Weapon Slot for Truly Modular Arsenal/Archery
+'''
+#logoFile = "icon.png"
+
+[[dependencies.backslotmi]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.backslotmi]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.backslotmi]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.backslotmi]]
+modId = "curiosbackslot"
+mandatory = true
+versionRange = "[4,)"
+ordering = "BEFORE"
+side = "BOTH"
+
+
